@@ -1,0 +1,118 @@
+
+body {
+    background-image: url('https://www.invoice-machine.com/wp-content/uploads/2017/06/invoice-machine-all-devices.png') ; /* Replace this URL with any suitable background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.me-3 {
+    margin-right: 30px;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 0 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    .form-control {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+
+
